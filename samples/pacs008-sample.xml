@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>AURIGGA-MX2MT-20261118</MsgId>
+      <CreDtTm>2026-11-18T10:00:00+04:00</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>CLRG</SttlmMtd>
+      </SttlmInf>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <InstrId>INSTR-12345</InstrId>
+        <EndToEndId>E2E-998877</EndToEndId>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="AED">12500.50</IntrBkSttlmAmt>
+      <IntrBkSttlmDt>2026-11-18</IntrBkSttlmDt>
+      <ChrgBr>SLEV</ChrgBr>
+      <Dbtr>
+        <Nm>AURIGGA HOLDINGS LLC</Nm>
+        <PstlAdr>
+          <AdrLine>LEVEL 14, BOULEVARD PLAZA</AdrLine>
+          <AdrLine>DOWNTOWN DUBAI</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>AE750350000000123456789</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BICFI>NBADAEAAXXX</BICFI>
+        </FinInstnId>
+      </DbtrAgt>
+      <CdtrAgt>
+        <FinInstnId>
+          <BICFI>EBILAEADXXX</BICFI>
+        </FinInstnId>
+      </CdtrAgt>
+      <Cdtr>
+        <Nm>GULF ENTERPRISE PARTNERS</Nm>
+        <PstlAdr>
+          <AdrLine>OFFICE 202, AL SARAB TOWER</AdrLine>
+          <AdrLine>ABU DHABI</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>AE150260001015321456789</IBAN>
+        </Id>
+      </CdtrAcct>
+      <RmtInf>
+        <Ustrd>INVOICE 2026-884 PAYMENT</Ustrd>
+      </RmtInf>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>
